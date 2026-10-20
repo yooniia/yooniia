@@ -1,0 +1,65 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09090F"/>
+      <stop offset="0.48" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1F1147"/>
+    </linearGradient>
+    <linearGradient id="line" x1="110" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <filter id="glowCyan" x="0" y="0" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowPurple" x="0" y="0" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <path d="M0 68H1280" stroke="#0EA5E9" stroke-opacity="0.16"/>
+  <path d="M0 292H1280" stroke="#A855F7" stroke-opacity="0.16"/>
+  <path d="M94 54H1186" stroke="url(#line)" stroke-width="3"/>
+  <path d="M94 306H1186" stroke="url(#line)" stroke-width="3"/>
+
+  <rect x="78" y="70" width="1124" height="220" rx="18" fill="#0B1020" fill-opacity="0.72" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="92" y="84" width="1096" height="192" rx="14" stroke="#22D3EE" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="10 8"/>
+
+  <g filter="url(#glowPurple)">
+    <text x="122" y="126" fill="#22D3EE" font-family="monospace" font-size="20" font-weight="700">// CYBER PROFILE INTERFACE</text>
+  </g>
+
+  <g filter="url(#glowCyan)">
+    <text x="122" y="182" fill="#F8FAFC" font-family="monospace" font-size="46" font-weight="800">HUIAE YOON</text>
+  </g>
+
+  <text x="122" y="216" fill="#C4B5FD" font-family="monospace" font-size="22">INFORMATION SECURITY STUDENT  ·  SECURITY DEVELOPER</text>
+  <text x="122" y="248" fill="#94A3B8" font-family="monospace" font-size="17">web security / ai security / privacy / digital forensics</text>
+
+  <rect x="120" y="262" width="176" height="34" rx="8" fill="#111827" stroke="#22D3EE"/>
+  <rect x="312" y="262" width="156" height="34" rx="8" fill="#111827" stroke="#A855F7"/>
+  <rect x="484" y="262" width="128" height="34" rx="8" fill="#111827" stroke="#10B981"/>
+  <text x="142" y="284" fill="#E5E7EB" font-family="monospace" font-size="15">QUEST : ACTIVE</text>
+  <text x="334" y="284" fill="#E5E7EB" font-family="monospace" font-size="15">STATUS : ONLINE</text>
+  <text x="506" y="284" fill="#E5E7EB" font-family="monospace" font-size="15">BUILD : V1.0</text>
+
+  <rect x="858" y="110" width="282" height="124" rx="14" fill="#0A0F1A" stroke="#22D3EE" stroke-opacity="0.6"/>
+  <text x="880" y="138" fill="#FDE68A" font-family="monospace" font-size="18" font-weight="700">PLAYER STATS</text>
+  <text x="880" y="168" fill="#E5E7EB" font-family="monospace" font-size="15">Class   : Security Explorer</text>
+  <text x="880" y="192" fill="#E5E7EB" font-family="monospace" font-size="15">Focus   : LLM / Fuzzing / Forensics</text>
+  <text x="880" y="216" fill="#E5E7EB" font-family="monospace" font-size="15">Mission : Build · Research · Protect</text>
+
+  <circle cx="1136" cy="104" r="6" fill="#22D3EE"/>
+  <circle cx="1114" cy="104" r="6" fill="#A855F7"/>
+  <circle cx="1092" cy="104" r="6" fill="#10B981"/>
+</svg>
