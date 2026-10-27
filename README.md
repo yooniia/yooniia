@@ -2,7 +2,7 @@
 
 ![CYBER PROFILE — HUIAE YOON](./assets/banner_cyberpunk.svg)
 
-# `CYBER PROFILE // HUIAE YOON`
+# `YOONIIA`
 
 **`SECURITY STUDENT` · `SECURITY DEVELOPER` · `QUEST MODE : ACTIVE`**
 
